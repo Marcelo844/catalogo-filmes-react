@@ -1,0 +1,64 @@
+.container {
+  padding: 30px;
+  background-color: #000;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.titulo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.filtro-btn {
+  padding: 8px 16px;
+  background: #222;
+  color: white;
+  border: 1px solid #555;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.filtro-btn:hover {
+  background: #444;
+}
+
+.filtro-btn.ativo {
+  background: #fff;
+  color: #000;
+  font-weight: bold;
+}
+
+.filmes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 20px;
+}
+
+.filme-card {
+  text-align: center;
+}
+
+.filme-img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.detalhes-btn {
+  margin-top: 10px;
+  padding: 6px 16px;
+  border: none;
+  background: #fff;
+  color: #000;
+  border-radius: 20px;
+  cursor: pointer;
+}
