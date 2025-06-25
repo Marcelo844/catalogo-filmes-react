@@ -1,51 +1,52 @@
-# API DE FILMES USANDO REACTJS
+🎬 Catálogo de Filmes com React
+Projeto web desenvolvido em React que consome a API do TMDB para exibir um catálogo de filmes populares. Possui filtro por categorias (gêneros) e paginação dinâmica.
 
-Por [Diego Candido](https://diegocandido.com)
+📸 Demonstração
+![image](https://github.com/user-attachments/assets/5c6b02cf-d859-4412-a6e1-8412f43410af)
+
+🚀 Funcionalidades
+✅ Consumo de API externa com axios
+
+✅ Listagem de filmes populares
+
+✅ Filtro por categorias (gêneros)
+
+✅ Paginação com botão "Carregar mais"
+
+✅ Interface responsiva com React
+
+🛠 Tecnologias Utilizadas
+React.js
+
+JavaScript
+
+Axios
+
+React Router
+
+CSS 
+
+The Movie Database (TMDB) API
+
+🔧 Instalação
+Clone o repositório:
 
 
-Montei esse projeto bem básico para consumir uma API Rest com lista de filmes.
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
 
-
-
-## Site que fornece a API grátis: 
-```
-https://www.themoviedb.org/
-```
-
-## Documentação Oficial do projeto:
-```
-https://www.themoviedb.org/documentation/api
-```
-
-Irá ser necessário a geração de uma chave privada nesse link:
-```
-https://www.themoviedb.org/settings/api
-```
-
-## Token no arquivo .ENV ##
-Para acessar a API Restfull do site é necessário criar um token e colocar em um arquivo .ENV na raíz do projeto. Conforme imagem abaixo:
-
-![print](https://user-images.githubusercontent.com/1766790/191596782-51cd52f4-d471-4930-9e33-d792ad4aeeb1.JPG)
-
-
-## Clonando o Repositório ##
-Com o Git e o Node.js instalado na sua maquina e a **URL** do projeto em mãos, cria em algum lugar do seu pc uma pasta para criarmos uma copia do repositório, dentro dela abra o **cmd** ou **powershell** e digite os comandos abaixo:
-```
-git clone https://github.com/diegocandido/react-filmes.git
-cd react-filmes
 npm install
+Crie um arquivo .env e adicione sua chave da API TMDB:
+
+REACT_APP_TMDB_API_KEY=sua_chave_aqui
+Inicie o projeto:
+
 npm start
-```
+🌐 API Utilizada
+Este projeto usa a API do TheMovieDB.
+Para usar, crie uma conta gratuita e gere uma API Key em:
+👉 https://www.themoviedb.org/settings/api
 
-## Tela Inicial do projeto:
-
-![screan](https://user-images.githubusercontent.com/81689363/190420116-177e6087-c1dd-4276-bef1-1dd20e575039.PNG)
-
-
-## Tela de detalhes do filme:
-
-![details](https://user-images.githubusercontent.com/81689363/190419902-82b9ce94-3944-4bdb-ad1c-e35a93b142e1.PNG)
-
-
-
- 
+🙋‍♂️ Autor
+Desenvolvido por Marcelo
+🔗 github.com/Marcelo844
