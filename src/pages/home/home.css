@@ -1,13 +1,29 @@
-.container {
-  padding: 30px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
   background-color: #000;
   color: #fff;
+}
+
+.container {
+  padding: 30px;
+  padding-top: 110px;
   min-height: 100vh;
 }
 
 .titulo {
   text-align: center;
-  margin-bottom: 30px;
+  margin: 0 0 30px 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
 }
 
 .filtros {
@@ -25,17 +41,20 @@
   border: 1px solid #555;
   border-radius: 20px;
   cursor: pointer;
-  transition: 0.3s;
+  transition: all 0.3s;
+  font-weight: 500;
 }
 
 .filtro-btn:hover {
-  background: #444;
+  background: #f5c518;
+  color: #000;
 }
 
 .filtro-btn.ativo {
   background: #fff;
   color: #000;
   font-weight: bold;
+  border-color: #f5c518;
 }
 
 .filmes {
@@ -46,11 +65,29 @@
 
 .filme-card {
   text-align: center;
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  padding: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.05);
+}
+
+.filme-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(255, 255, 255, 0.15);
 }
 
 .filme-img {
   width: 100%;
-  border-radius: 12px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.filme-titulo {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  min-height: 48px;
 }
 
 .detalhes-btn {
@@ -61,4 +98,23 @@
   color: #000;
   border-radius: 20px;
   cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.detalhes-btn:hover {
+  background-color: #f5c518;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .filmes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .filmes {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

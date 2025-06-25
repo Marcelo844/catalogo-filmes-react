@@ -27,7 +27,7 @@ const Movie = () => {
     return (
         <div>
             <nav>
-                <h1>Movie</h1>
+                <h1>Filmes</h1>
             </nav>
             <img
                 className="img_movie"
