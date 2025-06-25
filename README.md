@@ -2,7 +2,8 @@
 Projeto web desenvolvido em React que consome a API do TMDB para exibir um catálogo de filmes populares. Possui filtro por categorias (gêneros) e paginação dinâmica.
 
 📸 Demonstração
-![image](https://github.com/user-attachments/assets/5c6b02cf-d859-4412-a6e1-8412f43410af)
+![image](https://github.com/user-attachments/assets/5bf98fe1-1c6e-477b-ad29-5e8b80f23b33)
+
 
 🚀 Funcionalidades
 ✅ Consumo de API externa com axios
